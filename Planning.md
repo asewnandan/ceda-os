@@ -1,7 +1,7 @@
 # Planning
 
 ## Nu
-- [ ] Repo public maken en GitHub Pages inschakelen
+- [x] Repo public maken en GitHub Pages inschakelen
 
 ## Icebox
 - fumapress
