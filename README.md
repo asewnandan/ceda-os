@@ -19,3 +19,6 @@ AI Assisted Development Kit for building CEDA products. Includes standardized wo
 - MCP's
 - Skills
 - Hooks
+
+# License
+Apache-2.0, zie [LICENSE](LICENSE).
