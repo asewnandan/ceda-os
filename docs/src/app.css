@@ -3,6 +3,51 @@
 @import "fumadocs-ui/css/preset.css";
 @import "fumapress/css/preset.css";
 
+/* Kleuren: Npuls-palet. Light = blauw primair, dark = geel primair. Waarden zonder Npuls-bron zijn afgeleid. */
+:root {
+  --color-fd-background: #ffffff;
+  --color-fd-foreground: #0a0a0a;
+  --color-fd-muted: #f3f4f6;
+  --color-fd-muted-foreground: #4b5563;
+  --color-fd-popover: #ffffff;
+  --color-fd-popover-foreground: #0a0a0a;
+  --color-fd-card: #fafafa;
+  --color-fd-card-foreground: #0a0a0a;
+  --color-fd-border: rgba(0, 0, 0, 0.09);
+  --color-fd-primary: #3d68ec;
+  --color-fd-primary-foreground: #ffffff;
+  --color-fd-secondary: #f3f4f6;
+  --color-fd-secondary-foreground: #0a0a0a;
+  --color-fd-accent: rgba(61, 104, 236, 0.09);
+  --color-fd-accent-foreground: #0a0a0a;
+  --color-fd-ring: #3d68ec;
+}
+
+.dark {
+  --color-fd-background: #08090a;
+  --color-fd-foreground: #f7f8f8;
+  --color-fd-muted: #101113;
+  --color-fd-muted-foreground: #a1a7b3;
+  --color-fd-popover: #101113;
+  --color-fd-popover-foreground: #f7f8f8;
+  --color-fd-card: #0b0c0d;
+  --color-fd-card-foreground: #f7f8f8;
+  --color-fd-border: rgba(255, 255, 255, 0.08);
+  --color-fd-primary: #f4d74b;
+  --color-fd-primary-foreground: #0a0a0a;
+  --color-fd-secondary: #101113;
+  --color-fd-secondary-foreground: #f7f8f8;
+  --color-fd-accent: rgba(244, 215, 75, 0.1);
+  --color-fd-accent-foreground: #f7f8f8;
+  --color-fd-ring: #f4d74b;
+}
+
+.dark #nd-sidebar {
+  --color-fd-muted: #101113;
+  --color-fd-secondary: #101113;
+  --color-fd-muted-foreground: #a1a7b3;
+}
+
 @theme {
   --font-mono: "JetBrains Mono", monospace;
   --default-font-family: "Geist", sans-serif;
