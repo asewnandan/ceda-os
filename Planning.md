@@ -1,7 +1,14 @@
 # Planning
 
 ## Nu
-- [ ] Decide npm or plugin (distributie en publieke API, eerst valideren voor je commit)
+- [ ] Docs-site in 2 secties via sidebar-keuze (fumadocs-stijl): **Aan de slag** (placeholder: waar het naartoe gaat en hoe je het straks automatisch gebruikt) en **WIP** (building in public: proces, keuzes, voortgang). Primaire lezer: externe meekijker. Naam WIP is voorlopig
+  - Open: sidebar op `/` toont alleen de twee secties, startpagina `content/index.mdx` staat buiten de tabs
+- [ ] Distributie: **Claude Code plugin eerst**, algemene npm package later (richting gekozen, nog valideren voor je commit). Check overlap met `cedanl/ceda-skills-library`
+- [ ] Docs-skelet (richting, alleen eerste stappen bouwen):
+  - Aan de slag: `index`, `quickstart`, later `components/` (skills, mcp, hooks, agents), `stability`
+  - WIP: `index`, later `fundamentals/`, `decisions/` (eerste: plugin-first), `roadmap`, changelog
+  - Fundamentals horen in WIP
+- Uitgangspunt: CEDA OS bouwt voort op software fundamentals, vervangt ze niet
 
 ## Gedaan
 - [x] Repo public maken en GitHub Pages inschakelen
