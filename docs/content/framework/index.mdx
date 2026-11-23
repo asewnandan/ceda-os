@@ -1,13 +1,14 @@
 ---
 title: Introductie
-description: De toolkit voor AI agentic engineering bij CEDA.
+description: Eén installatie die je van idee naar product brengt.
 icon: BookOpen
 ---
 
-import { BookOpenIcon, BotIcon, LibraryIcon, MonitorIcon, PlugIcon, RocketIcon, SparklesIcon, WebhookIcon, WrenchIcon } from "lucide-react";
+import { BookOpenIcon, BotIcon, LibraryIcon, MonitorIcon, PlugIcon, RocketIcon, SparklesIcon, UsersIcon, WebhookIcon, WrenchIcon } from "lucide-react";
+import { Step, Steps } from "fumadocs-ui/components/steps";
 import { AgentInstructions } from "../../src/components/agent-instructions";
 
-CEDA OS is de toolkit waarmee CEDA-developers met AI-agents bouwen. Eén installatie, alle skills, MCP's, hooks en agents. Eén bron van waarheid, gebouwd op software fundamentals.
+CEDA OS is het framework waarmee CEDA-developers sneller van idee naar product gaan. Je installeert het één keer in je IDE. Een orchestrator-agent doet de rest.
 
 <AgentInstructions />
 
@@ -15,44 +16,67 @@ CEDA OS is de toolkit waarmee CEDA-developers met AI-agents bouwen. Eén install
   CEDA OS is in ontwikkeling en de inhoud kan nog veranderen. Volg de voortgang onder [WIP](/wip).
 </Callout>
 
+## Hoe het werkt
+
+<Steps>
+  <Step>
+    ### Installeer één keer
+    Eén installatie in je IDE. Geen set die je zelf samenstelt.
+  </Step>
+  <Step>
+    ### De orchestrator kijkt mee
+    Hij herkent welk product je bouwt en in welke fase je zit.
+  </Step>
+  <Step>
+    ### De juiste bouwsteen start vanzelf
+    Skills, MCP's, hooks en agents worden aangeroepen op het moment dat ze nodig zijn.
+  </Step>
+</Steps>
+
 ## Wat zit erin
+
+De bouwstenen die de orchestrator aanroept.
 
 <Cards>
   <Card icon={<SparklesIcon className="text-[#3D68EC]" />} title="Skills">
-    Herhaalbare werkwijzen die je agent direct kan gebruiken.
+    Herhaalbare werkwijzen voor een fase of taak.
   </Card>
   <Card icon={<PlugIcon className="text-[#DD784B]" />} title="MCP's">
-    Koppelingen met de tools en bronnen waar je dagelijks mee werkt.
+    Koppelingen met de tools en bronnen waar je mee werkt.
   </Card>
   <Card icon={<WebhookIcon className="text-[#00AF81]" />} title="Hooks">
     Automatische controles en acties rond elke stap van je agent.
   </Card>
   <Card icon={<BotIcon className="text-[#3D68EC]" />} title="Agents">
-    Gespecialiseerde agents voor vaste taken, direct klaar voor gebruik.
+    Gespecialiseerde agents voor vaste taken.
   </Card>
 </Cards>
 
-## Het probleem
+## Eén bron van waarheid
 
-Elke developer stelt zijn eigen skills, MCP's, hooks en agents samen. Die lopen uit de pas, zijn lastig te delen en wie nieuw begint, begint bij nul.
-
-## De oplossing
-
-Eén installatie waarmee iedere CEDA-developer dezelfde, actuele set gebruikt. Verbeteringen komen op één plek terecht en bereiken iedereen automatisch.
-
-## Wat we bouwen
+Zonder CEDA OS stelt elke developer zijn eigen set samen. Die loopt uit de pas en wie nieuw begint, begint bij nul. Nu is er één actuele set, en verbeteringen bereiken iedereen automatisch.
 
 <Cards>
-  <Card icon={<LibraryIcon className="text-[#3D68EC]" />} title="Libraries">
-    Herbruikbare bouwstenen voor agentic engineering.
+  <Card icon={<WrenchIcon className="text-[#DD784B]" />} title="CEDA-engineers bepalen">
+    Zij kiezen welke bouwstenen er zijn en wanneer de orchestrator ze aanroept.
   </Card>
-  <Card icon={<MonitorIcon className="text-[#DD784B]" />} title="Apps">
-    GUI op desktop en web om CEDA OS te gebruiken en te beheren.
-  </Card>
-  <Card icon={<WrenchIcon className="text-[#00AF81]" />} title="Developer tools">
-    Tooling die het dagelijks werken met agents sneller en betrouwbaarder maakt.
+  <Card icon={<UsersIcon className="text-[#00AF81]" />} title="Developers gebruiken">
+    Zij bouwen hun product en krijgen de juiste hulp op het juiste moment.
   </Card>
 </Cards>
+
+## Wat je ermee bouwt
+
+<Cards>
+  <Card icon={<MonitorIcon className="text-[#3D68EC]" />} title="Apps">
+    Echte applicaties voor onderwijs, van idee tot productie.
+  </Card>
+  <Card icon={<LibraryIcon className="text-[#DD784B]" />} title="Libraries">
+    Herbruikbare bouwstenen voor andere CEDA-producten.
+  </Card>
+</Cards>
+
+CEDA OS bouwt voort op software fundamentals en vervangt ze niet.
 
 ## Waar begin je
 
