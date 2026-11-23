@@ -1,0 +1,7 @@
+{
+  "title": "Framework",
+  "description": "Wat CEDA OS is en hoe je het gebruikt",
+  "icon": "Layers",
+  "root": true,
+  "pages": ["index", "quickstart"]
+}

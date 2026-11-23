@@ -26,6 +26,9 @@ export default createPress(docs.toFumadocsSource(), {
     baseUrl: "https://asewnandan.github.io/ceda-os/",
     git: { user: "asewnandan", repo: "ceda-os", branch: "main" },
   },
+  ui: {
+    layoutProps: { nav: { title: "CEDA OS", url: "/framework" } },
+  },
   head: [
     { tag: "link", attrs: { rel: "preconnect", href: "https://fonts.googleapis.com" } },
     { tag: "link", attrs: { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" } },
