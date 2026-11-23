@@ -1,0 +1,7 @@
+{
+  "title": "WIP",
+  "description": "Building in public: proces, keuzes en voortgang",
+  "icon": "Hammer",
+  "root": true,
+  "pages": ["index"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Aan de slag",
+  "description": "Hoe je CEDA OS straks gebruikt",
+  "icon": "Rocket",
+  "root": true,
+  "pages": ["index", "quickstart"]
+}

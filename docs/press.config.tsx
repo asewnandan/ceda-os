@@ -1,6 +1,7 @@
 import { createPress } from "fumapress";
 import { metaSchema, pageSchema } from "fumapress/schema";
 import { defineDocs } from "fumadocs-mdx/macro";
+import { lucideIconsPlugin } from "fumadocs-core/source/plugins/lucide-icons";
 
 const docs = defineDocs({
   dir: "content",
@@ -17,7 +18,9 @@ const docs = defineDocs({
   },
 });
 
-export default createPress(docs.toFumadocsSource()).config({
+export default createPress(docs.toFumadocsSource(), {
+  loaderPlugins: [lucideIconsPlugin()],
+}).config({
   site: {
     name: "CEDA OS",
     baseUrl: "https://asewnandan.github.io/ceda-os/",
