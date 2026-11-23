@@ -1,10 +1,11 @@
 # Planning
 
 ## Nu
-- [ ] **Brainstorm: sectie "Wat zit erin"** op `docs/content/framework/index.mdx`. Nu 4 kaarten (Skills, MCP's, Hooks, Agents) met door mij verzonnen omschrijvingen. Vragen: kloppen deze vier als indeling, wat is de eigenlijke inhoud per type, moeten kaarten linken naar `components/`-pagina's (zie docs-skelet), en hoort dit tegenover "Wat we bouwen" (Libraries, Apps, Developer tools) te staan of samen
-- Stand docs-site: secties heten nu **Framework** (Introductie, Quickstart) en **WIP**, niet meer "Aan de slag". Light = blauw primair, dark = geel primair (Npuls-palet, `docs/src/app.css`). Open: redirect `/` → `/framework` is niet getest op de statische build; afgeleide dark-waarden en pay-off ("Onderwijs bewegen." vs "Moving Education.") nog laten goedkeuren; fontlicenties (General Sans, Cooper Light BT). Design-previews staan in `design-preview/` (gitignored)
-- [ ] Docs-site in 2 secties via sidebar-keuze (fumadocs-stijl): **Aan de slag** (placeholder: waar het naartoe gaat en hoe je het straks automatisch gebruikt) en **WIP** (building in public: proces, keuzes, voortgang). Primaire lezer: externe meekijker. Naam WIP is voorlopig
-  - Open: sidebar op `/` toont alleen de twee secties, startpagina `content/index.mdx` staat buiten de tabs
+- [ ] **Quickstart: installatie per OS** (Windows / macOS / Linux, via `Tabs`). Wacht op de plugin; structuur kan alvast. Prerequisites staan er (Orca aanbevolen, Claude Code, Git, GitHub-account). Open: levert Orca Git zelf mee, Windows native of WSL aanbevelen, controleert de orchestrator zelf of tools ontbreken
+- [ ] **Orca uitzoeken** (aanbevolen IDE, niet verplicht): docs lezen over plugins en workers. Overlapt het met onze orchestrator-agent en met de plugin-first distributie
+- [ ] **Intro-pagina**: herschreven rond de orchestrator (Hoe het werkt, Wat zit erin, Eén bron van waarheid, Wat je ermee bouwt). Nog te doen: "Developer Fundamentals" (IDE e.d.) wel of niet in CEDA OS, kaarten linken naar `components/`-pagina's, hoort "Eén bron van waarheid" daar of in WIP
+- Stand docs-site: secties heten **Framework** (Introductie, Quickstart) en **WIP**. Layout is notebook op volle breedte, tabs in de sidebar. Light = blauw primair, dark = geel primair (Npuls-palet, `docs/src/app.css`). Open: afgeleide dark-waarden en pay-off ("Onderwijs bewegen." vs "Moving Education.") nog laten goedkeuren; fontlicenties (General Sans, Cooper Light BT). Design-previews staan in `design-preview/` (gitignored)
+- Docs-site in 2 secties (Framework en WIP) is gebouwd. Primaire lezer: externe meekijker. Naam WIP is voorlopig
 - [ ] Distributie: **Claude Code plugin eerst**, algemene npm package later (richting gekozen, nog valideren voor je commit). Check overlap met `cedanl/ceda-skills-library`
 - [ ] Docs-skelet (richting, alleen eerste stappen bouwen):
   - Aan de slag: `index`, `quickstart`, later `components/` (skills, mcp, hooks, agents), `stability`
