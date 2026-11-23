@@ -5,6 +5,7 @@
 
 /* Kleuren: Npuls-palet. Light = blauw primair, dark = geel primair. Waarden zonder Npuls-bron zijn afgeleid. */
 :root {
+  --fd-layout-width: 100vw;
   --color-fd-background: #ffffff;
   --color-fd-foreground: #0a0a0a;
   --color-fd-muted: #f3f4f6;

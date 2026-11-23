@@ -28,6 +28,7 @@ export default createPress(docs.toFumadocsSource(), {
     git: { user: "asewnandan", repo: "ceda-os", branch: "main" },
   },
   ui: {
+    renderPage: ({ renderDefault }) => renderDefault({ layout: "notebook" }),
     layoutProps: {
       nav: {
         title: (
