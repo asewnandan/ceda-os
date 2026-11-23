@@ -4,8 +4,29 @@ icon: Rocket
 description: Aan de slag met CEDA OS.
 ---
 
-<Callout title="Work in progress">Deze pagina is nog een placeholder.</Callout>
+import { BotIcon, GitBranchIcon, KeyRoundIcon, MonitorIcon } from "lucide-react";
+
+<Callout title="Work in progress">Deze pagina is nog een placeholder. De installatie volgt zodra de plugin er is.</Callout>
+
+## Voor je begint
+
+<Cards>
+  <Card icon={<MonitorIcon className="text-[#3D68EC]" />} href="https://orca.dev" title="Orca (aanbevolen)">
+    Onze aanbevolen IDE voor agents. Claude Code in de terminal of een andere IDE werkt ook.
+  </Card>
+  <Card icon={<BotIcon className="text-[#DD784B]" />} href="https://code.claude.com/docs/en/setup" title="Claude Code">
+    De agent waarin CEDA OS draait. Nodig voor alle opties.
+  </Card>
+  <Card icon={<GitBranchIcon className="text-[#00AF81]" />} href="https://git-scm.com/downloads" title="Git">
+    Voor repo's en worktrees.
+  </Card>
+  <Card icon={<KeyRoundIcon className="text-[#3D68EC]" />} title="GitHub-account">
+    Met toegang tot de CEDA-organisatie zolang de repo privé is.
+  </Card>
+</Cards>
+
+GitHub CLI en Node.js heb je niet altijd nodig. Waar een skill of MCP ze vraagt, staat dat erbij.
 
 ## Installeren
 
-Placeholder: quickstart.
+Placeholder: installatie per besturingssysteem (Windows, macOS, Linux).
